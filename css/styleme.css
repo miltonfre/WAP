@@ -1,0 +1,59 @@
+
+div>h3{
+    color: #ff7a18;
+    font-weight: bold;
+}
+strong{
+    color: rgb(3, 3, 80);
+}
+.sections{
+    width: 600px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.623);
+    color: black;
+}
+body {
+    background-image: url("../images/bg-image3.png");
+    color: white;
+    background-color: #cccccc;
+    font-family: Gotham Narrow SSm A,Gotham Narrow SSm B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+   }
+h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: clamp(2rem,calc(2rem + 1.2vw),3rem);
+}
+
+.mega-header-author {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1.5rem;
+}
+
+.mega-header, .page-wrap {
+    padding: 0 var(--gap);
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 1.5rem;
+}
+
+.avatar{
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.author-bio {
+    font-size: 1.4rem;
+}
+
+.div-section{
+    display: flex;
+    overflow: hidden;
+}
+.moods{
+    width:800px; 
+    margin:0 auto;
+}
