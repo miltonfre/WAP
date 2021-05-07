@@ -2,21 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Simple Calculator Lab!</title>
+  <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Simple Calculator Lab!" %>
-</h1>
+<h1><%= "Hello World!" %></h1>
 <br/>
-<form action="calcValues" method="post">
-<div>
-<input type="text" required id="sumFirstNumber" placeholder="Enter First Number"
-       name="sumFirstNumber">
-    <label>+</label>
-    <input type="text" required id="sumSecondNumber" placeholder="Enter Second Number"
-           name="sumSecondNumber">
-</div>
-<button type="submit" class="btn btn-success submit-margin">Submit</button>
-</form>
+<!--<a href="hello-servlet">Hello Servlet</a>-->
+<a href="Calc.html">Lab 11-Servlet Lesson</a><br/>
+<a href="CalcImproved.jsp">Lab 11-Servlet Lesson Part 2</a>
 </body>
 </html>
