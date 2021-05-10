@@ -12,5 +12,7 @@
 <a href="CalcImproved.jsp">Lab 11-Servlet Lesson Part 2</a><br/>
 <a href="QuizServlet">Quiz in servlet</a><br/>
 <a href="Quiz.jsp">Quiz in jsp</a><br/>
+<a href="form.html">JSP Custom tag 1</a><br/>
+<a href="ScopeServlet">JSP Custom tag 2</a><br/>
 </body>
 </html>
